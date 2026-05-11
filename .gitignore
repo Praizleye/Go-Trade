@@ -1,0 +1,32 @@
+# Binaries
+bin/
+dist/
+*.exe
+
+# Go build artifacts
+*.test
+*.out
+vendor/
+
+# Environment / secrets — never commit these
+.env
+.env.local
+*.key
+*.pem
+
+# SQLite database files (your bot's live data)
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Editor / OS junk
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
+logs/
